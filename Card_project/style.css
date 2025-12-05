@@ -1,0 +1,121 @@
+body {
+    background: #0b0c13;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.priceCard {
+    background: linear-gradient(135deg, #081ee6, #010429, #010429, #010429, #010656, #2E3192);
+    border-radius: 30px;
+    width: 300px;
+    padding: 30px 20px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.priceCardBg { 
+    background: linear-gradient(189deg, #010656, #735bb0, #081ee6, #2E3192); /* Gradient border */
+    padding: 2px; 
+    border-radius: 30px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+
+.plan-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.save-badge-wrapper {
+    background: linear-gradient(90deg, #6d6d70, #0c0322); /* gradient border */
+    padding: 2px; /* border thickness */
+    border-radius: 20px;
+    display: inline-block;
+    
+}
+
+
+.save-badge {
+    background: linear-gradient(90deg, #0c0322, #6d6d70); /* inner background color */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: default;
+    display: inline-block;
+}
+
+
+.card-price {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0 0; /* Reduce bottom margin from 20px to 0 or 10px */
+}
+.currency {
+    position: absolute;
+    top: 14.5px;     /* Move up */
+    left: -20px;    /* Move to the left */
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    color: #fff;
+}
+
+.amount {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-period {
+    font-size: 0.85rem;
+    color: #bbb;
+    margin-top: 4px;    /* Optional: add a bit of top margin */
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-description {
+    font-size: 0.8rem;
+    color: #ccc;
+    margin-bottom: 25px;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.card-billing {
+    font-size: 0.75rem;
+    color: #aaa;
+}
